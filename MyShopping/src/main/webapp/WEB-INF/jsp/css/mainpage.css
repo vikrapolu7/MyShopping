@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.card{
+	border: 1px solid black;
+	
+}
+.td{
+	padding: 10px;
+	margin-left: 50px;
+}
