@@ -78,8 +78,10 @@ public class ApplicationController {
 			request.setAttribute("mode", "MODE_PRODUCT");
 			return "insertproduct";
 		}
-		@PostMapping("/buynow")
-		public String buyproduct(@ModelAttribute Product product,BindingResult bindingResult,HttpServletRequest request) {
-			
-		}
+	/*
+	 * @PostMapping("/buynow") //public String buyproduct(@ModelAttribute Product
+	 * product,BindingResult bindingResult,HttpServletRequest request) {
+	 * 
+	 * }
+	 */
 }	
